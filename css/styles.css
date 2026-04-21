@@ -522,6 +522,7 @@ img {
 
 .modal {
   position: fixed;
+  position: relative;
   top: 50%;
   left: 50%;
   border-radius: 4px;
@@ -559,6 +560,11 @@ img {
 .modal-close-button:hover,
 .modal-close-button:focus {
   background-color: #404bbf;
+}
+
+.modal-close-button:hover .close-icon,
+.modal-close-button:focus .close-icon {
+  fill: #ffffff;
 }
 
 .close-icon {
